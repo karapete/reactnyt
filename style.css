@@ -1,0 +1,55 @@
+h1{
+	text-align: center;
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+background-color:aqua;
+font-size: 68px;
+color:white;
+}
+
+#header{
+
+
+}
+
+#jumbotron{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+background-color:aqua;
+font-size: 68px;
+color:white;
+
+}
+
+input{
+	width:99%;
+	height:45px;
+	border:3px solid lightgray;
+	border-radius: 5px;
+
+}
+
+.container{
+
+font-weight: bolder;
+}
+
+#searchHeader{
+	
+	height:40px;
+	color:white;
+	background-color:gray;
+	border-radius: 5px;
+}
+
+button{
+	background-color:darkgray;
+}
+
+
+#resultsHeader{
+
+	height:40px;
+	color:white;
+	background-color:gray;
+	border-radius: 5px;
+
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title></title>
+</head>
+<body>
+	
+	<div class="container">
+		
+		<div id="header" class="row">
+
+			<div id="jumbotron" class="col-sm-12 jumbotron">
+				<h1>NYT React</h1>
+			</div>
+		</div>
+		<div id="searchParameters" class="row">
+			<div class="col-sm-12">
+				<div id="searchHeader" class="row">
+					<div class="col-sm-12">Search Parameters</div>
+				</div>
+				<div id="searchTerm" class="row">
+					<div class="col-sm-12"><form>
+						Search Term: <br>
+						<input type="text" name="SearchTerm" value=""><br>
+						Number of Records to Retrieve:<br>
+						<select>
+							<option value="1">1</option>
+							<option selected value="5">5</option>
+							<option value="10">10</option>
+						</select><br>
+						Start Year: <br>
+						<input type="text" name="startYear" value=""><br>
+						End Year: <br>
+						<input type="text" name="endYear" value=""><br>
+						<br>
+						
+						<button id="search" type="button" class="btn btn-primary">Search</button>
+						<button id="clear" type="button" class="btn btn-primary">Clear Results</button>
+						<br>
+						<br>
+
+
+
+					</form></div>
+				</div>
+				
+				
+			</div>
+		</div>
+		<div id="results" class="row">
+			<div class="col-sm-12">
+				<div id="resultsHeader" class="row">
+					<div class="col-sm-12">
+						Top Articles
+					</div>
+				</div>
+				<div id="resultsContent" class="row">
+					
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+<script src="server.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+</body>
+</html>
